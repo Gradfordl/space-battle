@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <script defer src="game.js"></script>
+    <title>Space Battle</title>
+  </head>
+  <body>
+    <header>
+      <h1>SPACE BATTLE</h1>
+    </header>
+   
+    <span class="material-symbols-outlined"> rocket_launch </span>
+    <div id="space-battle">
+      <h2>Welcome to Space Battle!</h2>
+      <h4>Objective: Kill your enemies before they kill you.</h4>
+      <p>
+        You are captain of the USSAssembly, kill off the alien ships and get
+        your crew back home! Your ship has a starting hull of 20, a firepower of
+        5, and 0.7 accuracy. Keep an eye on your hull, once it reaches 0 its
+        game over!
+      </p>
+    </div>
+    <div id="enemy-stats"></div>
+
+    <button id="start" type="button">Start</button>
+
+    <div id="modal">
+      <button id="attack" type="button">Attack</button>
+      <button id="restart" type="button">Restart</button>
+    </div>
+  </body>
+</html>
